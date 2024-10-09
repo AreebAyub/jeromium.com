@@ -1,0 +1,97 @@
+body {
+  background-color: red;
+  color: white;
+}
+h1 {
+  font-size: 100px;
+}
+h2 {
+  font-size: 60px;
+}
+li {
+  font-size: 30px;
+}
+p {
+  font-size: 30px;
+}
+.coin {
+  width: 100px;
+}
+.coino {
+  width: 200px;
+}
+.coinoo {
+  width: 300px;
+}
+.info {
+  background-color: black;
+  border-radius: 50px;
+  margin: 25px;
+  padding: 30px;
+  text-align: center;
+}
+.money {
+  margin: 0px 10px 0px 10px;
+}
+.note {
+  width: 30%;
+}
+.shrunk {
+  height: 0;
+  opacity: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: height 1s, opacity 1s;
+}
+.title {
+  font-size: 200px;
+}
+#expandanthem:hover {
+  #shrunkanthem {
+    height: 360px;
+    opacity: 1;
+    overflow: visible;
+  }
+}
+#expandcurrency:hover {
+  #shrunkcurrency {
+    height: 880px;
+    opacity: 1;
+    overflow: visible;
+  }
+}
+#expandday:hover {
+  #shrunkday {
+    height: 360px;
+    opacity: 1;
+    overflow: visible;
+  }
+}
+#expandfood:hover {
+  #shrunkfood {
+    height: 810px;
+    opacity: 1;
+    overflow: visible;
+  }
+}
+#expandgoods:hover {
+  #shrunkgoods {
+    height: 270px;
+    opacity: 1;
+    overflow: visible;
+  }
+}
+#expandten:hover {
+  #shrunkten {
+    height: 360px;
+    opacity: 1;
+    overflow: visible;
+  }
+}
+#expandtenl:hover {
+  #shrunktenl {
+    height: 360px;
+    opacity: 1;
+    overflow: visible;
+  }
+}
