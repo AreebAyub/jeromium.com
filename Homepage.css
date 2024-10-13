@@ -62,7 +62,7 @@ p {
 }
 #expandday:hover {
   #shrunkday {
-    height: 360px;
+    height: 225px;
     opacity: 1;
     overflow: visible;
   }
