@@ -1,3 +1,6 @@
+a {
+  font-size: 30px;
+}
 body {
   background-color: red;
   color: white;
@@ -23,6 +26,10 @@ p {
 .coinoo {
   width: 300px;
 }
+.hundred {
+  border-radius: 25px;
+  width: 100%;
+}
 .info {
   background-color: black;
   border-radius: 50px;
@@ -41,10 +48,13 @@ p {
   opacity: 1;
   overflow: hidden;
   text-overflow: ellipsis;
-  transition: height 1s, opacity 1s;
+  transition: height 1.5s, opacity 1.5s;
 }
 .title {
   font-size: 200px;
+}
+.warning {
+  color: darkred;
 }
 #expandanthem:hover {
   #shrunkanthem {
@@ -77,6 +87,13 @@ p {
 #expandgoods:hover {
   #shrunkgoods {
     height: 270px;
+    opacity: 1;
+    overflow: visible;
+  }
+}
+#expandmap:hover {
+  #shrunkmap {
+    height: 900px;
     opacity: 1;
     overflow: visible;
   }
